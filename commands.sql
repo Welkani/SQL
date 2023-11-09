@@ -1,0 +1,43 @@
+/*CREATE TABLE Utilisateurs(
+    nom VARCHAR(50),
+    prenom VARCHAR(50),
+    email VARCHAR(50),
+    password VARCHAR(50),                       
+    date_de_naisssance DATE,
+    age int(3),  
+    cv TEXT, 
+    sexe enum('homme', 'femme','autre'));
+
+*/
+insert into Utilisateurs(nom, prenom , email, password, date_de_naisssance,age,cv,sexe)
+VALUES
+  ('Smith', 'John', 'john.smith@example.com', 'motdepasse1', '1990-05-15', 33, 'CV1', 'Homme'),
+  ('Johnson', 'Alice', 'alice.johnson@example.com', 'motdepasse2', '1985-11-20', 38, 'CV2', 'Femme'),
+  ('Brown', 'Michael', 'michael.brown@example.com', 'motdepasse3', '1993-07-10', 28, 'CV3', 'Homme'),
+  ('Davis', 'Sarah', 'sarah.davis@example.com', 'motdepasse4', '1988-03-05', 34, 'CV4', 'Femme'),
+  ('Wilson', 'David', 'david.wilson@example.com', 'motdepasse5', '1992-09-25', 30, 'CV5', 'Homme'),
+  ('Lee', 'Emily', 'emily.lee@example.com', 'motdepasse6', '1995-01-30', 27, 'CV6', 'Femme'),
+  ('Anderson', 'Robert', 'robert.anderson@example.com', 'motdepasse7', '1987-08-12', 36, 'CV7', 'Homme'),
+  ('Thomas', 'Emma', 'emma.thomas@example.com', 'motdepasse8', '1991-04-02', 32, 'CV8', 'Femme'),
+  ('Martinez', 'James', 'james.martinez@example.com', 'motdepasse9', '1983-12-18', 39, 'CV9', 'Homme'),
+  ('Hernandez', 'Olivia', 'olivia.hernandez@example.com', 'motdepasse10', '1997-06-08', 26, 'CV10', 'Femme'),
+  ('Lopez', 'William', 'william.lopez@example.com', 'motdepasse11', '1986-10-22', 37, 'CV11', 'Homme'),
+  ('Garcia', 'Sophia', 'sophia.garcia@example.com', 'motdepasse12', '1989-02-14', 33, 'CV12', 'Femme'),
+  ('Miller', 'Liam', 'liam.miller@example.com', 'motdepasse13', '1994-03-28', 29, 'CV13', 'Homme'),
+  ('Taylor', 'Charlotte', 'charlotte.taylor@example.com', 'motdepasse14', '1996-07-03', 27, 'CV14', 'Femme'),
+  ('Moore', 'Mason', 'mason.moore@example.com', 'motdepasse15', '1984-09-10', 39, 'CV15', 'Homme'),
+  ('White', 'Ava', 'ava.white@example.com', 'motdepasse16', '1998-01-05', 24, 'CV16', 'Femme'),
+  ('Jackson', 'Ethan', 'ethan.jackson@example.com', 'motdepasse17', '1982-11-15', 40, 'CV17', 'Homme'),
+  ('Harris', 'Isabella', 'isabella.harris@example.com', 'motdepasse18', '1990-05-25', 31, 'CV18', 'Femme'),
+  ('Clark', 'Noah', 'noah.clark@example.com', 'motdepasse19', '1983-03-12', 38, 'CV19', 'Homme'),
+  ('Lewis', 'Chloe', 'chloe.lewis@example.com', 'motdepasse20', '1993-06-18', 28, 'CV20', 'Femme'),
+  ('Young', 'Alexander', 'alexander.young@example.com', 'motdepasse21', '1987-07-20', 36, 'CV21', 'Homme'),
+  ('Walker', 'Sophie', 'sophie.walker@example.com', 'motdepasse22', '1985-09-30', 38, 'CV22', 'Femme'),
+  ('Hall', 'Elijah', 'elijah.hall@example.com', 'motdepasse23', '1995-02-08', 28, 'CV23', 'Homme'),
+  ('Allen', 'Aria', 'aria.allen@example.com', 'motdepasse24', '1991-12-01', 31, 'CV24', 'Femme'),
+  ('Scott', 'Logan', 'logan.scott@example.com', 'motdepasse25', '1996-04-15', 27, 'CV25', 'Homme'),
+  ('Adams', 'Aiden', 'aiden.adams@example.com', 'motdepasse26', '1992-10-19', 30, 'CV26', 'Homme'),
+  ('Baker', 'Oliver', 'oliver.baker@example.com', 'motdepasse27', '1990-08-21', 32, 'CV27', 'Homme'),
+  ('Gonzalez', 'Elena', 'elena.gonzalez@example.com', 'motdepasse28', '1994-07-11', 28, 'CV28', 'Femme'),
+  ('Perez', 'Sofia', 'sofia.perez@example.com', 'motdepasse29', '1989-04-05', 34, 'CV29', 'Femme'),
+  ('Sanchez', 'Diego', 'diego.sanchez@example.com', 'motdepasse30', '1993-06-22', 28, 'CV30', 'Homme');
